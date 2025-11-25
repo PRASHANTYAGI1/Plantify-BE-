@@ -1,0 +1,16 @@
+# Node
+node_modules/
+npm-debug.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# ML model folder (if contains large or sensitive files)
+temp/
+ML/*
+!ML/*.js   # allow ML code but not models
+
+# OS junk
+.DS_Store
